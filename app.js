@@ -4,6 +4,9 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+// single DB require — the connection is handled in app_server/models/db.js
+require('./app_server/models/db');
+
 var indexRouter = require('./app_server/routes/index');
 var usersRouter = require('./app_server/routes/users');
 

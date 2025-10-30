@@ -1,1 +1,0 @@
-MONGODB_URI=mongodb+srv://23eg106b61_db_user:<ARYan@123>@cluster0.fphv38w.mongodb.net/?appName=Cluster0
